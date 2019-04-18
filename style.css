@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  font-family: sans-serif;
+}
+
+.h1 {
+  font-size: 48px;
+}
+
+.container {
+  font-family: sans-serif;
+  font-family: "Quicksand";
+  margin: 0;
+  padding: 0;
+  background-color: #0d9e73;
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 24px;
+  line-height: 1.4;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrapper {
+  display: block;
+  padding: 24px;
+}
+
+.content-item {
+  padding: 24px;
+}
+.content-item img {
+  width: auto;
+  height: 150px;
+}
+
+.page-behind-1, .page-behind-2 {
+  font-size: 0;
+  line-height: 0;
+}
+.page-behind-1 table > tbody > tr > td, .page-behind-2 table > tbody > tr > td {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+  display: inline-block;
+  border-top: 4px solid white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.page-behind-1 table {
+  width: 75%;
+}
+
+.page-behind-2 table {
+  width: 90%;
+}
+
+.page-content {
+  background: white;
+  padding: 48px 16px;
+}
+
+.button td {
+  border-radius: 16px;
+  background-color: #fbbd13;
+}
+.button td a {
+  border-radius: 16px;
+  border: solid 1px #fbbd13;
+  background-color: #fbbd13;
+  color: #833b20;
+  padding: 16px 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text-logo {
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+.text-logo img {
+  width: auto;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

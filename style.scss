@@ -1,0 +1,152 @@
+$background-color: #0d9e73;
+$content-background-color: white;
+$text-color: black;
+$button-background-color: #fbbd13;
+$button-text-color: #833b20;
+
+
+$default-font-family: sans-serif;
+
+$web-font-family: 'Quicksand';
+
+$font-size-normal: 24px;
+$font-size-large: 48px;
+$line-height: 1.4;
+
+
+$base-size: 16px;
+
+$spacing-small: $base-size * 0.5;
+$spacing-normal: $base-size;
+$spacing-tiny: $base-size * 0.25;
+$spacing-large: $base-size * 1.5;
+$spacing-larger: $base-size * 2;
+$spacing-huge: $base-size * 3;
+
+body{
+    font-family: $default-font-family;
+    font-family: $default-font-family;
+}
+.h1{
+    font-size: $font-size-large;
+}
+//top most table inside the body
+.container{
+    // web-font if supported
+    font-family: $default-font-family;
+    font-family: $web-font-family;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: $background-color;
+
+    //fill all available space
+    width: 100% !important;
+    height: 100% !important;
+
+    font-size: $font-size-normal;
+
+
+    line-height: $line-height;
+
+    //dont adjust font our font size for us
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+// wraps content to email width
+.wrapper{
+    //display as block
+    display: block;
+    padding: $spacing-large;
+}
+
+//general item with padding
+.content-item{
+    padding: $spacing-large;
+
+    img{
+        width: auto;
+        height: 150px;
+    }
+}
+//solid blocks of collor
+.page-behind-1, .page-behind-2{
+
+    //remove any whitespace
+    font-size: 0;
+    line-height: 0;
+
+    //white space content itself
+    table > tbody > tr > td {
+
+        //remove any whitespace
+        font-size: 0;
+        line-height: 0;
+
+        padding: 0;
+
+        width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: $spacing-tiny;
+
+        display: inline-block;
+
+        //solid bar of color
+        border-top: $spacing-tiny solid $content-background-color;
+    }
+}
+// Center text
+.text-center
+{
+    text-align: center;
+}
+.page-behind-1 table{
+    width: 75%;
+}
+.page-behind-2 table{
+    width: 90%;
+}
+
+.page-content{
+    background: $content-background-color;
+
+    padding: $spacing-huge $spacing-normal;
+}
+
+.button{
+
+    td{
+        border-radius: $spacing-normal;
+        background-color: $button-background-color;
+
+        a {
+            border-radius: $spacing-normal;
+            border: solid 1px $button-background-color;
+
+            background-color: $button-background-color;
+
+            color: $button-text-color;
+
+            padding: $spacing-normal $spacing-large;
+
+            text-decoration: none;
+
+            display: inline-block;
+        }
+    }
+}
+
+.text-logo{
+
+    padding-top: $spacing-huge * 2;
+    padding-bottom: $spacing-larger;
+
+    img{
+        width: auto;
+        height: 100px;
+    }
+}
